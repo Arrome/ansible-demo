@@ -1,0 +1,1 @@
+`ansible -i inventory all  -m setup`

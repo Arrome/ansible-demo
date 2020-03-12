@@ -1,0 +1,11 @@
+---
+
+- name: Download zookeeper tar
+  get_url:
+    url: "{{zookeeper_url}}"
+    dest: /opt/resources/zookeeper-{{zookeeper_version}}.tar.gz
+
+- name: unpack zookeeper tar
+  command:
+    chdir: /opt/resources
+    cmd: tar -zxf zookeeper-{{zookeeper_version}}.tar.gz -C /usr/local

@@ -1,0 +1,8 @@
+# from galaxy
+# 默认安装目录 /Users/arrome/.ansible/roles/geerlingguy.java
+- src: geerlingguy.java
+
+# from github
+#- src: https://github.com/bennojoy/nginx
+#  version: master
+#  path: nginx_role

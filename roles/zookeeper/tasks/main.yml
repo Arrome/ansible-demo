@@ -1,0 +1,5 @@
+---
+# tasks file for zookeeper
+
+- include: RedHat.yml
+  when: ansible_os_family == "RedHat"

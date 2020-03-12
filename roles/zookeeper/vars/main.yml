@@ -1,0 +1,5 @@
+---
+# vars file for zookeeper
+
+zookeeper_url: https://downloads.apache.org/zookeeper/zookeeper-3.6.0/apache-zookeeper-3.6.0-bin.tar.gz
+zookeeper_version: 3.6.0
